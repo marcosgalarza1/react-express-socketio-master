@@ -34,11 +34,11 @@ export default function App() {
   return (
     <div className="h-screen bg-zinc-800 text-white flex items-center justify-center">
       <form onSubmit={handleSubmit} className="bg-zinc-900 p-10">
-        <h1 className="text-2xl font-bold my-2">Chat React</h1>
+        <h1 className="text-2xl font-bold my-2">Chat Marcuss</h1>
         <input
           name="message"
           type="text"
-          placeholder="Write your message..."
+          placeholder="Escribe tu mensaje"
           onChange={(e) => setMessage(e.target.value)}
           className="border-2 border-zinc-500 p-2 w-full text-black"
           value={message}
